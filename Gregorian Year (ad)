@@ -1,0 +1,19 @@
+a=int(input("Which year were you born?"))
+if a>=1883 and a<=1900:
+  print("Lost Generation")
+elif a>=1901 and a<=1927:
+  print("Greatest Generation")
+elif a>=1928 and a<=1945:
+  print("Silent Generation")
+elif a>=1946 and a<=1964: 
+  print("babay boomers")
+elif a>=1965 and a<=1980:
+  print("X Generation")
+elif a>=1981 and a<=1996:
+  print("Millennials")
+elif a>=1997 and a<=2012:
+  print("Z Generation")
+elif a>=2012:
+  print("Alpha Generation")
+else:
+  print("I don't know.")
